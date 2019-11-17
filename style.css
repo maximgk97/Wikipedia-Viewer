@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(192,192,192);
+  font-family: 'Lato', sans-serif;
+}
+
+a, a:link, a:active, a:visited, a:hover{
+  text-decoration: none;
+  color: rgb(37, 94, 213);
+}
+
+input[type='text']{
+  border: 3px solid rgb(37, 94, 213);
+  height: 6.5rem
+}
+
+input[type='text']:focus{
+  border: 2px solid rgb(37, 94, 213);
+}
+
+.input-group-addon{
+  margin: 0px;
+  padding: 0px;
+}
+
+#heading{
+  padding-bottom: 25px;
+}
+
+#heading h1{
+  color: rgb(37, 94, 213);
+}
+
+.or {
+  padding: 1rem;
+}
+
+#search{
+  padding: 1.5rem 3.5rem;
+  background-color: rgb(37, 94, 213);
+  border: 3px;
+}
+
+#search i{
+  font-size: 3rem;
+  color: white;
+}
+
+#random h2{
+  margin: 0px;
+  color: rgb(37, 94, 213);
+}
+
+#random i{
+  padding: 1.2rem 2.5rem;
+  border-radius: 10px;
+  color: rgba(238, 238, 238,0.8);
+  background-color: rgb(37, 94, 213);
+}
+
+#res{
+  padding: 2rem 0px;
+}
+
+#resultdiv{
+  background-color: rgb(37, 94, 213);;
+  border-radius: 5px;
+  margin: 2rem auto;
+  padding: 1.5rem 3rem;
+}
+
+#resultdiv h3 {
+  font-style: italic;
+}
+
+#resultdiv a{
+  color: rgba(255,255,255,0.9);
+}

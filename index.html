@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Bootstrap css cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <!-- JQuery and JavaScript files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src = "app.js"> </script>  
+</head>
+<body>
+        <div class="container-fluid">
+                <div class="row" id="heading">
+                  <div class="col-md-6 col-md-push-3 col-xs-6 col-xs-push-3">
+                    <h1 class="text-center">The Wikipedia Viewer</h1>
+                    <!-- continued here -->
+                    <div class="text-center" id="random">
+                      <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                        <h2>Random article <i class="fa fa-random fa-lg"></i></h2>
+                      </a>
+                      <h2 class = "or">OR</h2>
+                    </div>
+                    <!-- form for search input -->
+                    <form class="form" action="javascript:void(0);">
+                      <div class="input-group">
+                        <input type="text" name="query" id="query" class="form-control input-lg" placeholder="Search">
+                        <div class="input-group-addon btn" id="search">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- container div to render the search results from Wikipedia -->
+              <div class="container">
+                <div id="res">
+            </div>
+        </div>
+    <br>
+</body>
+</html>
